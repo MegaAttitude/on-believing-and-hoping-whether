@@ -8,8 +8,8 @@ LABEL maintainer.name="Aaron Steven White" \
       subproject.name="MegaVeridicality, MegaNegRaising" \
       subproject.website="http://megaattitude.io/projects/mega-veridicality/, http://megaattitude.io/projects/mega-negraising/" \
       image.website="https://github.com/MegaAttitude/on-believing-and-hoping-whether" \
-      image.version="1.0" \
-      image.modification_date="2021-01-05"
+      image.version="1.1" \
+      image.modification_date="2021-01-08"
 
 COPY --chown=1000:100 ./*.ipynb /home/jovyan/work/
 COPY --chown=1000:100 ./verb_complementizer_counts.csv /home/jovyan/work/
